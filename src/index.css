@@ -1,3 +1,10 @@
+.container{
+  display: grid;
+  border: 2px solid rgb(137, 86, 167);
+  box-shadow: 10px 5px 10px rgb(137, 86, 167);
+  justify-content: center;
+  margin: 0px 100px 0px 100px;
+}
 .app{
   border:none;
   text-align: center;
@@ -59,11 +66,7 @@
 .title{
   font-size: 30px;
 }
-.formset{
-  margin: auto;
-  align-items: center;
-  width: 15%;
-}
+
 .tasklist{
   border:none;
   display: block;
@@ -81,9 +84,4 @@
   color: aliceblue;
   box-shadow: 10px 5px 10px rgb(137, 86, 167);
   padding: 4px;
-}
-.centertitle{
-  margin: auto;
-  width: 50%;
-  
 }
